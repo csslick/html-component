@@ -8,18 +8,17 @@ const footer = {
   url: "./components/footer.html"
 }
 
-function getAssets(asset) {
+function loadAssets(asset) {
   $.ajax({
     url: asset.url,
     success: function (data) {
       $(asset.id).html(data);
     }
   });
-  console.log(asset)
 }
 
-getAssets(header)
-getAssets(footer)
+loadAssets(header)
+loadAssets(footer)
 
 // fetch("./components/header.html")
 //   .then((res) => {

@@ -6,11 +6,13 @@
 body { overflow-x: hidden; }
 ul { list-style-type: none;}
 a { text-decoration: none;}
+
 section {
   min-width: 768px;
   height: 800px;
   background: #ccc;
 }
+
 .container {
   min-width: 768px;
   max-width: 1200px;

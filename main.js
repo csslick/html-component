@@ -20,13 +20,4 @@ function loadAssets(asset) {
 loadAssets(header)
 loadAssets(footer)
 
-// fetch("./components/header.html")
-//   .then((res) => {
-//     return res.text();
-//   })
-//   .then((data) => {
-//     // $('#container').html(data);
-//     console.log(data);
-//     const header = document.querySelector("#main_header");
-//     header.innerHTML = data;
-//   });
+

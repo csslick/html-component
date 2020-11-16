@@ -28,6 +28,7 @@ function loadAssets(asset) {
 
 // 헤더 로드
 loadAssets(header)
+
 // 푸터 로드
 loadAssets(footer)
 
